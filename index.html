@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Upratovanie Trnava – byty, domy, autá</title>
+<meta name="description" content="Profesionálne upratovanie bytov, domov a detailing áut v Trnave a okolí. Cenník a rýchly kontakt.">
+<style>
+:root{--ink:#14202B;--paper:#F6F9FA;--card:#fff;--blue:#1565C0;--sun:#FFD23F;--mute:#5B6B79;--line:#D5DEE4}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;padding-bottom:84px}
+a{color:inherit}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+h1,h2{line-height:1.12;letter-spacing:-.02em}
+h1{font-size:clamp(2.1rem,7vw,3.6rem);font-weight:800}
+h2{font-size:clamp(1.5rem,4.5vw,2.1rem);font-weight:800;margin-bottom:18px}
+section{padding:48px 0}
+.hero{background:var(--ink);color:#fff;padding:56px 0 48px;border-bottom:6px solid var(--sun)}
+.hero p{max-width:34em;margin:16px 0 26px;font-size:1.1rem;color:#C9D6DF}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:10px;font-weight:700;text-decoration:none;border:2px solid transparent;font-size:1rem}
+.btn.main{background:var(--sun);color:var(--ink)}
+.btn.alt{border-color:#4A6075;color:#fff}
+.btn.dark{background:var(--ink);color:#fff}
+.btn.line{border-color:var(--line);background:var(--card)}
+.btn:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.services{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.svc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.svc h3{font-size:1.2rem;margin-bottom:6px}
+.svc p{color:var(--mute);font-size:.98rem}
+.menu{background:var(--card);border:2px solid var(--ink);border-radius:16px;padding:6px 22px}
+.menu h3{font-size:1.05rem;padding:18px 0 4px;color:var(--blue)}
+.row{display:flex;align-items:baseline;gap:8px;padding:9px 0}
+.row .dots{flex:1;border-bottom:2px dotted var(--line);transform:translateY(-4px)}
+.row b{white-space:nowrap}
+.note{color:var(--mute);font-size:.92rem;margin-top:12px}
+.steps{list-style:none;padding:0;display:grid;gap:12px;counter-reset:s}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px 16px 62px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:16px;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;background:var(--sun);display:grid;place-items:center;font-weight:800}
+.contact{background:var(--ink);color:#fff}
+.contact p{color:#C9D6DF;margin-bottom:20px}
+.contact .btn.line{background:transparent;border-color:#4A6075;color:#fff}
+.big{font-size:clamp(1.6rem,6vw,2.4rem);font-weight:800;text-decoration:none;display:inline-block;margin-bottom:18px}
+footer{padding:22px 0;color:var(--mute);font-size:.9rem}
+.bar{position:fixed;left:0;right:0;bottom:0;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(246,249,250,.96);border-top:1px solid var(--line);z-index:5}
+.bar .btn{flex:1;min-height:46px;padding:0 8px}
+@media(min-width:760px){.bar{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="wrap">
+<h1>Upratovanie bytov, domov a áut v Trnave</h1>
+<p>Prídeme, uprataneme a odídeme. Vy sa vrátite do čistého. Napíšte alebo zavolajte a dohodneme termín.</p>
+<div class="btns">
+<a class="btn main" data-link="tel">Zavolať</a>
+<a class="btn alt" data-link="wa">WhatsApp</a>
+<a class="btn alt" data-link="tg">Telegram</a>
+</div>
+</div>
+</header>
+
+<section>
+<div class="wrap">
+<h2>Čo upratujeme</h2>
+<div class="services">
+<div class="svc"><h3>Byty a izby</h3><p>Pravidelné aj jednorazové upratovanie, po rekonštrukcii, pred nasťahovaním alebo po odsťahovaní.</p></div>
+<div class="svc"><h3>Domy</h3><p>Kuchyňa, kúpeľne, podlahy, okná. Celý dom alebo len vybrané miestnosti.</p></div>
+<div class="svc"><h3>Autá</h3><p>Čistenie interiéru a exteriéru, detailing. Auto bude vyzerať ako nové.</p></div>
+</div>
+</div>
+</section>
+
+<section id="cennik" style="padding-top:0">
+<div class="wrap">
+<h2>Cenník</h2>
+<div class="menu">
+<h3>Byty</h3>
+<div class="row"><span>Garsónka / 1-izbový byt</span><span class="dots"></span><b>od XX €</b></div>
+<div class="row"><span>2-izbový byt</span><span class="dots"></span><b>od XX €</b></div>
+<div class="row"><span>3-izbový byt</span><span class="dots"></span><b>od XX €</b></div>
+<div class="row"><span>Umývanie okien</span><span class="dots"></span><b>od XX € / okno</b></div>
+<h3>Domy</h3>
+<div class="row"><span>Rodinný dom</span><span class="dots"></span><b>od XX €</b></div>
+<div class="row"><span>Generálne upratovanie</span><span class="dots"></span><b>od XX € / hod.</b></div>
+<h3>Autá</h3>
+<div class="row"><span>Čistenie interiéru</span><span class="dots"></span><b>od XX €</b></div>
+<div class="row"><span>Umytie exteriéru</span><span class="dots"></span><b>od XX €</b></div>
+<div class="row"><span>Kompletný detailing</span><span class="dots"></span><b>od XX €</b></div>
+</div>
+<p class="note">Konečná cena závisí od veľkosti a stavu. Pošlite fotku a dostanete presnú cenu ešte pred objednaním.</p>
+</div>
+</section>
+
+<section style="padding-top:0">
+<div class="wrap">
+<h2>Ako to prebieha</h2>
+<ol class="steps">
+<li>Napíšete nám, čo treba upratať, a pošlete pár fotiek.</li>
+<li>Pošleme vám cenu a voľný termín.</li>
+<li>Prídeme s vlastnou chémiou a vybavením a uprataneme.</li>
+</ol>
+</div>
+</section>
+
+<section class="contact" id="kontakt">
+<div class="wrap">
+<h2>Kontakt</h2>
+<p>Odpovedáme čo najrýchlejšie. Najrýchlejšie nás zastihnete cez WhatsApp alebo Telegram.</p>
+<a class="big" data-link="tel" data-text="phone"></a>
+<div class="btns">
+<a class="btn main" data-link="wa">WhatsApp</a>
+<a class="btn line" data-link="tg">Telegram</a>
+<a class="btn line" data-link="ig">Instagram @tr.detailing</a>
+<a class="btn line" data-link="bz">Inzerát na Bazoš</a>
+</div>
+</div>
+</section>
+
+<footer><div class="wrap">Upratovanie Trnava a okolie</div></footer>
+
+<nav class="bar" aria-label="Rýchly kontakt">
+<a class="btn dark" data-link="tel">Zavolať</a>
+<a class="btn main" data-link="wa">WhatsApp</a>
+<a class="btn line" data-link="tg">Telegram</a>
+</nav>
+
+<script>
+/* ZMEŇTE LEN TIETO ÚDAJE */
+var C={
+  phone:"+421 900 000 000",
+  whatsapp:"421900000000",      /* číslo bez + a medzier */
+  telegram:"vase_meno",         /* @meno bez zavináča */
+  instagram:"tr.detailing",
+  bazos:"https://sluzby.bazos.sk/inzerat/196394675/"  /* vložte celý odkaz na inzerát */
+};
+var L={
+  tel:"tel:"+C.phone.replace(/\s/g,""),
+  wa:"https://wa.me/"+C.whatsapp,
+  tg:"https://t.me/"+C.telegram,
+  ig:"https://www.instagram.com/"+C.instagram+"/",
+  bz:C.bazos
+};
+document.querySelectorAll("[data-link]").forEach(function(a){
+  a.href=L[a.dataset.link];
+  if(a.dataset.link!=="tel"){a.target="_blank";a.rel="noopener"}
+  if(a.dataset.text==="phone")a.textContent=C.phone;
+});
+</script>
+</body>
+</html>
